@@ -3,7 +3,7 @@ public class HelloWorldGit {
         String nom = "Tombou";
         String prenom = "Vincent Aubéric";
         String matricule = "000472347";
-        String groupe = "INFO-F307 git - GITHUB - 15 Freb 2019, 15h52";
+        String groupe = "INFO-F307 git - GITHUB - 15 Freb 2019, 16h04";
 
         System.out.println("Bonjour assistants!");
         System.out.println("Je suis " + prenom + " " + nom + " - " + matricule);
