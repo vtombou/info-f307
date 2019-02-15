@@ -17,7 +17,7 @@ public class Calculette {
      * @return          la somme des operands op1 et op2
      */
     public static int sum(int op1, int op2){
-        return 0;
+        return op1 + op2;
     }
 
     /**
@@ -28,7 +28,7 @@ public class Calculette {
      * @return          la différence des operands op1 et op2
      */
     public static int difference(int op1, int op2){
-        return 0;
+        return op1 - op2;
     }
 
     /**
@@ -39,7 +39,7 @@ public class Calculette {
      * @return          la multiplication des operands op1 et op2
      */
     public static int multiplication(int op1, int op2){
-        return 0;
+        return op1 * op2;
     }
 
     /**
