@@ -51,7 +51,11 @@ public class Calculette {
      * @throws ArithmeticException
      */
     public static double division(int op1, int op2){
-        return 0.0;
+	try{
+	    return op1/op2;
+	}catch(ArithmeticException e){
+	    System.out.println("Division par 0 !" + e.getMaessage() );
+	}
     }
 
     /**
